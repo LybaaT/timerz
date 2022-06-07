@@ -30,4 +30,6 @@ h2 {
 }
 #count {
     font-size: 90px;
+    color: rgb(255, 255, 58);
+    letter-spacing: 40px;
 }
