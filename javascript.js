@@ -1,7 +1,7 @@
-var counter = 10; 
+var counter = 1000; 
 
 function showNotification() {
-    const notification = new Notification("New message", {
+    const notification = new Notification("Laiba says", {
         body: "oiiii",
     });
 }
@@ -17,6 +17,7 @@ if (counter >= 0) {
 
 if (Notification.permission == "granted" && counter <= 0) {
     showNotification();
+    counter = 1000
 }
 else if (Notification.permission !== "denied") {
     Notification.requestPermission().then(permission => {
