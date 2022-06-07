@@ -12,13 +12,13 @@ body {
     font-family: "font1";
 }
 h1 {
-    font-size: 70px;
+    font-size: 50px;
 }
 .container {
-    margin-top: 20%;
+    margin-top: 15%;
     background-color: yellow;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 #count {
     font-size: 70px;

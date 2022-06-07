@@ -16,7 +16,7 @@ function showNotification() {
 
 console.log(Notification.permission);
 
-if (Notification.permission == "granted" && counter >= 0) {
+if (Notification.permission == "granted" && counter <= 0) {
     showNotification();
 }
 else if (Notification.permission !== "denied") {
