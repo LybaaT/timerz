@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "font1";
+    src: url(OpenSans-Semibold.ttf);
+}
+body {
+    background-image: url(bg.png);
+    text-align: center;
+    font-family: "font1";
+}
+h1 {
+    font-size: 70px;
+}
+.container {
+    margin-top: 20%;
+    background-color: yellow;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+#count {
+    font-size: 70px;
+}
