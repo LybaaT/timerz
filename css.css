@@ -12,7 +12,12 @@ body {
     font-family: "font1";
 }
 h1 {
-    font-size: 50px;
+    font-size: 40px;
+    padding: 20px;
+}
+h2 {
+    font-size: 20px;
+    padding: 25px;
 }
 .container {
     margin-top: 15%;
@@ -24,5 +29,5 @@ h1 {
     color: rgb(255, 158, 174);
 }
 #count {
-    font-size: 70px;
+    font-size: 90px;
 }
