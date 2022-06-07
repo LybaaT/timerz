@@ -19,6 +19,9 @@ h1 {
     background-color: yellow;
     margin-left: 20%;
     margin-right: 20%;
+    border: 5px solid #86004b;
+    background-color:#5a0334;
+    color: rgb(255, 158, 174);
 }
 #count {
     font-size: 70px;
